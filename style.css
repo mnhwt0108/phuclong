@@ -1,0 +1,14 @@
+p{
+    /* make text centered and large with gradient from green to black */
+    text-align: center;
+    font-size: 10em;
+    background: -webkit-linear-gradient(green, black);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* center text to middle of page vertically */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
