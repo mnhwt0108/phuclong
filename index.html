@@ -1,13 +1,359 @@
-<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PHUC LONG</title>
+    <link rel="icon" type="image/png" sizes="16x16" href="/image/icon PL.png" />
     <link rel="stylesheet" href="style.css" />
-    <title>Phuc Long</title>
   </head>
   <body>
-    <p>Phuc Long</p>
+    <header>
+      <div class="header_top">
+        <div class="header_top_wrapper">
+          <div class="container">
+            <div class="h_delivery">
+              <img src="/image/free delivery.png" alt="anh free delivery" />
+            </div>
+
+            <div class="h_logo">
+              <img src="/image/logo_header.png" alt="logo PL header" />
+            </div>
+
+            <div class="h_login">
+              <div class="login_content">
+                <a class="login" href="https://order.phuclong.com.vn/"
+                  >Đăng nhập
+                </a>
+                <a class="language" href="#"> VN | EN </a>
+                <button>
+                  Giỏ hàng
+                  <img src="/image/cart.png" alt="cart" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header_menu">
+        <div class="container">
+          <div class="h_menu">
+            <ul class="menu_list">
+              <li class="active">
+                <a href="http://phuclong.com.vn">Trang chủ</a>
+              </li>
+              <!-- cà phê -->
+              <li id="ca-phe" class="sub">
+                <a href="#"> Cà phê</a>
+                <div class="h_menu_sub">
+                  <ul class="level1">
+                    <li style="">
+                      <ul class="level2">
+                        <li><a href="#">Hành trình tách cà phê đậm vị</a></li>
+                        <li><a href="#">Hạt cà phê Phúc Long</a></li>
+                        <li><a href="#">Nghệ thuật pha chế</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <!-- end cà phê -->
+
+              <!-- tea -->
+              <li id="tea" class="sub">
+                <a href="#"> Trà</a>
+                <div class="h_menu_sub">
+                  <ul class="level1">
+                    <li style="">
+                      <ul class="level2">
+                        <li><a href="#">Hành trình tách đậm vị</a></li>
+                        <li><a href="#">Lá trà Phúc Long</a></li>
+                        <li><a href="#">Nghệ thuật pha chế</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <!-- end tea-->
+
+              <!-- thuc uong -->
+              <li id="thuc-uong" class="sub">
+                <a href="#"> Thức uống</a>
+                <div class="h_menu_sub">
+                  <ul class="level1">
+                    <li style="">
+                      <ul class="level2">
+                        <li><a href="#">Thức uống</a></li>
+                        <li><a href="#">Bánh tráng miệng</a></li>
+                        <li><a href="#">Đồ ăn mặn</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <!-- end thuc uong-->
+
+              <!-- san pham-->
+              <li id="san-pham" class="sub">
+                <a href="#"> Sản phẩm</a>
+                <div class="h_menu_sub">
+                  <ul class="level1">
+                    <li style="">
+                      <ul class="level2">
+                        <li><a href="#">Cà phê</a></li>
+                        <li><a href="#">Trà</a></li>
+                        <li><a href="#">Bánh trung thu</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <!-- end san pham-->
+
+              <li id="khuyen-mai" class="sub">
+                <a href="https://phuclong.com.vn/khuyen-mai"> Khuyến mãi</a>
+              </li>
+
+              <!-- about us -->
+              <li id="about-us" class="sub">
+                <a href="https://phuclong.com.vn/ve-chung-toi">Về chúng tôi</a>
+                <div class="h_menu_sub">
+                  <ul class="level1">
+                    <li style="">
+                      <ul class="level2">
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Tầm nhìn</a></li>
+                        <li><a href="#">Sứ mệnh</a></li>
+                        <li><a href="#">Tin tức</a></li>
+                        <li><a href="#">Tuyển dụng</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <!-- end about us -->
+
+              <!-- thẻ -->
+              <li id="the" class="sub">
+                <a href="#">Thẻ</a>
+                <div class="h_menu_sub">
+                  <ul class="level1">
+                    <li style="">
+                      <ul class="level2">
+                        <li><a href="#">Thẻ thành viên</a></li>
+                        <li><a href="#">Thẻ quà tặng</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <!-- end thẻ -->
+
+              <!-- search -->
+              <li id="search" class="sub">
+                <a href=""
+                  ><img style="width: 20px" src="/image/search.png"
+                /></a>
+                <div class="h_menu_sub">
+                  <ul class="level1">
+                    <li>
+                      <ul class="level2">
+                        <li>
+                          <a href="https://phuclong.com.vn/category/ca-phe"
+                            >Sản phẩm cà phê</a
+                          >
+                        </li>
+                        <li>
+                          <a href="https://phuclong.com.vn/category/tra"
+                            >Sản phẩm trà</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <!-- end search -->
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div>
+        <img src="/image/banner.jpg" class="banner" alt="..." />
+      </div>
+    </section>
+
+    <section
+      class="section2"
+      style="background-image: url('/image/background.png')"
+    >
+      <div class="section2_container">
+        <div class="item1">
+          <div class="item1_pic_wrapper">
+            <div class="item1_pic">
+              <img alt="alt" src="/image/pic1.jpg" />
+            </div>
+          </div>
+          <div class="item1_text">
+            <div class="item_text">
+              <h3 class="title">
+                TỪ NHỮNG MẦM TRÀ, CHÚNG TÔI TẠO RA NIỀM ĐAM MÊ
+              </h3>
+              <p></p>
+              <p>
+                Trải qua hơn&nbsp;50 năm chắt chiu tinh hoa từ những búp trà
+                xanh và hạt cà phê thượng hạng cùng mong muốn mang lại cho khách
+                hàng những trải nghiệm giá trị nhất khi thưởng thức, Phúc Long
+                liên tục là thương hiệu tiên phong với nhiều ý tưởng sáng tạo đi
+                đầu trong ngành trà và cà phê.&nbsp;<br />
+                <br />
+                Chúng tôi tin rằng từng sản phẩm trà và cà phê sẽ càng thêm hảo
+                hạng khi được tạo ra từ sự phấn đấu không ngừng cùng niềm đam
+                mê. Và chính kết nối dựa trên niềm tin, sự trung thực và tin yêu
+                sẽ góp phần mang đến những nét đẹp trong văn hóa thưởng trà và
+                cà phê ngày càng bay cao, vươn xa.
+              </p>
+              <p></p>
+
+              <div>
+                <a class="btn" href="https://phuclong.com.vn/ve-chung-toi"
+                  >Xem thêm</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="item2">
+          <div class="item2_text">
+            <div class="item_text" style="padding-top: 0">
+              <h3 class="title">ĐỘI NGŨ NHÂN VIÊN TRÀN ĐẦY NHIỆT HUYẾT</h3>
+              <p></p>
+              <p>
+                Trong suốt quá trình hoạt động và phát triển, đội ngũ quản lý và
+                nhân viên của Phúc Long Coffee &amp; Tea, qua bao thế hệ, đã
+                cùng nhau xây dựng, nuôi dưỡng niềm đam mê dành cho trà
+                và&nbsp;cà phê với mong muốn được thử thách bản thân trong ngành
+                dịch vụ năng động và sáng tạo.
+              </p>
+              <p></p>
+              <div>
+                <a class="btn" href="https://phuclong.com.vn/tuyen-dung"
+                  >Gia nhập đội ngũ Phúc Long</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="item2_pic">
+            <div class="item_pic">
+              <img alt="alt" src="/image/pic2.jpg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section3">
+      <div class="section3_container">
+        <div class="address">
+          <div class="address_wrapper">
+            <h2>Hệ thống cửa hàng</h2>
+            <h4>Địa chỉ cửa hàng</h4>
+            <ul class="list_store">
+              <li class="store">
+                <p>
+                  <img src="/image/store.png" />
+                  <a href="#" class="store_address">
+                    Phúc Long Lê Văn Sỹ - 350 Lê Văn Sỹ, quận 3, Hồ Chí Minh</a
+                  >
+                  <a
+                    href="#"
+                    style="background-image: none; margin-top: -18px"
+                    class="tele"
+                    >Điện thoại: (028) 7100 1968 (Ext. 20408)</a
+                  >
+                </p>
+              </li>
+              <li class="store">
+                <p>
+                  <a href="#" class="store_address">
+                    <img src="/image/store.png" /> Phúc Long 188 Trần Hưng Đạo -
+                    188 Trần Hưng Đạo, quận 5, Hồ Chí Minh</a
+                  >
+                  <a
+                    href="#"
+                    style="background-image: none; margin-top: -18px"
+                    class="tele"
+                    >Điện thoại: (028) 7100 1968 (Ext. 20668)</a
+                  >
+                </p>
+              </li>
+              <li class="store">
+                <p>
+                  <a href="#" class="store_address">
+                    <img src="/image/store.png" /> Phúc Long Nowzone - TTTM
+                    Nowzone, số 235 Nguyễn Văn Cừ, quận 1, Hồ Chí Minh</a
+                  >
+                  <a
+                    href="#"
+                    style="background-image: none; margin-top: -18px"
+                    class="tele"
+                    >Điện thoại: (028) 7100 1968 (Ext. 20518)</a
+                  >
+                </p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer">
+      <div class="footer_container">
+        <div class="contact_wrapper">
+          <div class="contact">
+            <b>Trụ sở chính</b>: Công ty Cổ Phần Phúc Long Heritage - ĐKKD: 0316
+            871719<br />
+            do sở KHĐT TPHCM cấp lần đầu ngày 21/05/2021<br />
+            <b>Nhà máy</b>: D_8D_CN Đường XE 1, Khu Công Nghiệp Mỹ Phước III,
+            phường Mỹ Phước, thị xã Bến Cát, tỉnh Bình Dương, Việt Nam<br />
+            <b>Địa chỉ</b>: 42/24 - 42/26 Đường 643 Tạ Quang Bửu, phường 4, quận
+            8, Hồ Chí Minh<br />
+            <b>Điện thoại</b>: 028 6263 0377 - 6263 0378 <br />
+            <b>Fax</b>: (028) 6263 0379 <br />
+            <b>Email</b><span>:</span><span> sales@phuclong.masangroup.com</span
+            ><br />
+            <b> </b><span></span><span> info2@phuclong.masangroup.com</span>
+          </div>
+          <div class="form_container">
+            <label for="newsletter-email">Đăng ký nhận tin khuyến mãi</label>
+            <form class="form" id="form-newsletter">
+              <div class="form-group">
+                <input type="email" placeholder="Nhập địa chỉ email" />
+              </div>
+              <button type="submit" class="btn2">Gửi</button>
+            </form>
+            <br />
+            <ul>
+              <li>
+                <a href="https://phuclong.com.vn/chinh-sach-dat-hang"
+                  >Chính sách đặt hàng</a
+                >
+              </li>
+              <li>
+                <a href="https://phuclong.com.vn/chinh-sach-bao-mat-thong-tin"
+                  >Chính sách bảo mật thông tin</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer_img">
+            <img src="/image/footer.png" />
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
