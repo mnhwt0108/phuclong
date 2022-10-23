@@ -65,10 +65,6 @@ body {
   color: #fff;
 }
 
-.header_menu {
-  overflow: hidden;
-}
-
 /* 
   make the container height doesn't change when the menu is open
    */
@@ -153,6 +149,10 @@ a {
   z-index: 10000;
 }
 
+.header_menu .container .menu_list .h_menu_sub:hover > ul {
+  display: block;
+}
+
 .header_menu .container .menu_list .h_menu_sub > ul li {
   float: none;
   width: 100%;
@@ -161,10 +161,6 @@ a {
 .header_menu .container .menu_list .h_menu_sub > ul li a {
   color: #000;
   padding: 10px 20px;
-  display: block;
-}
-
-.header_menu .container .menu_list .h_menu_sub:hover > ul {
   display: block;
 }
 
@@ -287,7 +283,7 @@ p {
 
 .section3 .section3_container .list_store .store .store_address {
   float: left;
-  width: 80%;
+  width: 70%;
   color: #fff;
   font-size: 20px;
   margin-bottom: 20px;
